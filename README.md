@@ -1,6 +1,6 @@
 # DeepSeek Harness Launcher for macOS
 
-一个**干净的** DeepSeek Harness（`dsh`）图形化启动器：双击图标即用，专为不熟悉命令行的用户设计。
+一个**干净的** DeepSeek Harness（`dsh`）图形化启动器：双击图标即用，使得使用体验更加便捷顺利。
 
 > **本启动器不包含、不修改、不重新打包任何 dsh 代码。**
 > 首次运行时，它会从**官方 npm 源**安装 `@deepseek-ai/dsh` 官方包——每个人拿到的都是 DeepSeek 官方原版内核，与手动执行官方安装命令完全一致。启动器本身只是一个约 150 行的开源 shell 脚本，逻辑全部可读、可审计。
@@ -10,6 +10,7 @@
 - DeepSeek Harness 官方目前以命令行 / `npx` 方式启动，对非开发者不友好
 - 网上流传的各种第三方 exe / dmg 安装包来源不明，存在被篡改风险
 - `npm install` 安装 dsh 时在小内存 Mac 上会因 Node 默认堆内存不足而崩溃（本启动器已内置修复）
+- 如果mac也能像Windows一样能双击运行某个指令那也不用那么麻烦了捏（）
 
 ## 功能
 
